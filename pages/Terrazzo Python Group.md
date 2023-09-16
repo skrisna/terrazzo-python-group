@@ -33,4 +33,10 @@
 		- `pyenv global <version>`
 # Poetry
 	- [Poetry - Python dependency management and packaging made easy](https://python-poetry.org)
+	- ```shell
+	  poetry new -n --src hello-world
+	  ```
+	- `poetry add numpy`
+	- `python` -> `import numpy as np` -- fails
+	- `poetry run python` -> `import numpy as np` -- passes
 	-
