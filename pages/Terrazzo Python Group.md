@@ -33,10 +33,23 @@
 		- `pyenv global <version>`
 # Poetry
 	- [Poetry - Python dependency management and packaging made easy](https://python-poetry.org)
+	- `pip install poetry`
+	- Add `export PATH=$PATH:$HOME/.poetry/bin` to .bashrc
 	- ```shell
 	  poetry new -n --src hello-world
 	  ```
 	- `poetry add numpy`
+	- `poetry env info`
+	- `poetry env info --path`
 	- `python` -> `import numpy as np` -- fails
 	- `poetry run python` -> `import numpy as np` -- passes
-	-
+- # VSCode
+	- `Ctrl+Shift+P`
+	- Install `Python` extension
+	- Configure `Python`
+	- Configure Tests
+	- Configure `settings.json`
+		- "files.exclude": {
+			- `**/__pycache__`
+			- `**/.pytest_cache`
+		- }
